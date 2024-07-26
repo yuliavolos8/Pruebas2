@@ -7,10 +7,13 @@ public class Menu {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 
+
+
+
+
 		CajeroAutomat cajero = new CajeroAutomat(500.85, 888992222);
 
 		int opcion = 0;
-
 		double cantRetirar;
 		double cantAniadir;
 		do {
