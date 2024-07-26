@@ -10,7 +10,6 @@ public class Menu {
 		CajeroAutomat cajero = new CajeroAutomat(500.85, 888992222);
 
 		int opcion = 0;
-
 		double cantRetirar;
 		double cantAniadir;
 		do {
