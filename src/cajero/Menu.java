@@ -6,7 +6,7 @@ public class Menu {
 
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
-		CajeroAutomat cajero = new CajeroAutomat(500.75, 123453211);
+		CajeroAutomat cajero = new CajeroAutomat(500.75, 1234532);
 		int opcion = 0;
 
 		double cantRetirar;
