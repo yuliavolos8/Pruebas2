@@ -11,6 +11,7 @@ public class Menu {
 		int opcion = 0;
 		double cantRetirar;
 		double cantAniadir;
+		
 		do {
 			System.out.println("-----------------------------");
 			System.out.println(" Eligue una opcion:\n1. Consulta tu saldo " + "\n2. Retiro de efectivo "
