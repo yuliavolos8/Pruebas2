@@ -2,7 +2,7 @@ package operaciones;
 
 import java.util.Scanner;
 
-public class ClaseBase {
+public abstract class ClaseBase {
 
 	protected int num1;
 	protected int num2;
@@ -19,4 +19,7 @@ public class ClaseBase {
 	public void mostrarResultado() {
 		System.out.println(resultado);
 	}
+	
+	public abstract void operciones();
 }
+

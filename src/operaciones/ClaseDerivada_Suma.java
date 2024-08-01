@@ -2,9 +2,12 @@ package operaciones;
 
 public class ClaseDerivada_Suma extends ClaseBase {
 
-	public void sumar() {
 
+
+	@Override
+	public void operciones() {
 		resultado = num1 + num2;
+		
 	}
 
 }
