@@ -18,7 +18,7 @@ public class Principal {
 
 		hija2.pedirDatos();
 		hija2.operaciones();
-		System.out.println("el resultado de la resta es: ");
+		System.out.println("el resultado de la suma es: ");
 		hija2.mostrarResultado();
 
 		ClaseBase hija3 = new ClaseDerivada_Divicion();
