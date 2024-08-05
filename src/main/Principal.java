@@ -8,8 +8,7 @@ import operaciones.ClaseDerivada_Divicion;
 public class Principal {
 	public static void main(String[] args) {
 		ClaseBase hija1 = new ClaseDerivada_Resta();
-
-	/*	hija1.pedirDatos();
+		hija1.pedirDatos();
 		hija1.operaciones();
 		System.out.print("el resultado de la resta es: ");
 		hija1.mostrarResultado();
@@ -20,7 +19,7 @@ public class Principal {
 		hija2.pedirDatos();
 		hija2.operaciones();
 		System.out.println("el resultado de la resta es: ");
-		hija2.mostrarResultado();*/
+		hija2.mostrarResultado();
 
 		ClaseBase hija3 = new ClaseDerivada_Divicion();
 		hija3.pedirDatos();
