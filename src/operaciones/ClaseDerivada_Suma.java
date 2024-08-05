@@ -5,7 +5,7 @@ public class ClaseDerivada_Suma extends ClaseBase {
 
 
 	@Override
-	public void operciones() {
+	public void operaciones() {
 		resultado = num1 + num2;
 		
 	}

@@ -12,14 +12,15 @@ public abstract class ClaseBase {
 	public void pedirDatos() {
 		System.out.println(" Dame el valor de primer numero ");
 		num1 = sc.nextInt();
-		System.out.println(" Dame el valor de 2 numero " );
+		System.out.println(" Dame el valor de 2 numero ");
 		num2 = sc.nextInt();
 	}
 
 	public void mostrarResultado() {
 		System.out.println(resultado);
 	}
-	
-	public abstract void operciones();
-}
 
+	public abstract void operaciones();
+
+	
+}
