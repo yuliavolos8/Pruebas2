@@ -6,7 +6,7 @@ public class MainType {
 
 		Typo<String> nomb = new Typo();
 		nomb.setValor("Java");
-		System.out.println("Nombrede String es :" + nomb);
+		System.out.println("Nombre de String es :" + nomb);
 
 		Typo<Integer> num = new Typo();
 
